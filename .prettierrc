@@ -1,0 +1,25 @@
+{
+  "printWidth": 120,
+  "singleQuote": true,
+  "endOfLine": "auto",
+  "arrowParens": "always",
+  "trailingComma": "none",
+  "overrides": [
+    {
+      "files": "*.mdx",
+      "options": {
+        "singleQuote": false,
+        "quoteProps": "as-needed",
+        "proseWrap": "always"
+      }
+    },
+    {
+      "files": "*.md",
+      "options": {
+        "singleQuote": false,
+        "quoteProps": "as-needed",
+        "proseWrap": "always"
+      }
+    }
+  ]
+}

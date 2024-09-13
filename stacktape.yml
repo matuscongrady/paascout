@@ -1,0 +1,18 @@
+scripts:
+  build:
+    type: local-script
+    properties:
+      executeCommand: pnpm build
+
+hooks:
+  beforeDeploy:
+    - scriptName: build
+
+resources:
+  webBucket:
+    type: hosting-bucket
+    properties:
+      hostingContentType: gatsby-static-website
+      uploadDirectoryPath: ./public
+      customDomains:
+        - domainName: paascout.io

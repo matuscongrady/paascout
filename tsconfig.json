@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "target": "esnext",
+    "lib": ["dom", "esnext"],
+    "jsx": "preserve",
+    "jsxImportSource": "@emotion/react"
+  },
+  "include": [
+    "./src/**/*",
+    "./SITE_CONFIG.js",
+    "./globals.d.ts",
+    "./directives.ts",
+    "./gatsby-*.js",
+    "./gatsby-*.ts",
+    "./scripts/**/*",
+    "./q.ts",
+    "./q.js"
+  ],
+  "exclude": ["code-examples"],
+  "typeRoots": ["node_modules/@types"]
+}
