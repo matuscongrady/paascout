@@ -1,4 +1,6 @@
-![Group 7.png](https://paascout.io/github_cover.png)
+<a href="https://paascout.io">
+ <img src="https://paascout.io/github_cover.png" alt="Logo">
+</a>
 
 # PaaScout.io
 
