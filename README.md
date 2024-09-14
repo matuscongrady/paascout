@@ -4,8 +4,6 @@
 
 # PaaScout.io
 
-<a href="https://www.producthunt.com/products/paascout?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-paascout" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=605448&theme=light" alt="PaaScout - Your&#0032;Guide&#0032;to&#0032;Choosing&#0032;the&#0032;Ideal&#0032;PaaS | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
 ## What is [PaaScout.io](http://PaaScount.io)?
 
 PaaS platforms make it easy to manage infrastructure and deploy applications. Developers can handle app deployment independently, without needing to learn DevOps.
