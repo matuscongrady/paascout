@@ -1046,7 +1046,7 @@ export const providerPrices: {
   },
   Medium: {
     Railway: {
-      items: {f
+      items: {
         Compute: { cost: 160, description: '2 x (2 vCpu, 4 GB)' },
         Postgres: { cost: 120, description: 'Postgres 2 vCpu, 8 GB' },
         'Service fee': { cost: 60, description: 'Pro plan with 3 seats' }
