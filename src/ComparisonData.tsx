@@ -993,7 +993,7 @@ export const providerPrices: {
           cost: 17,
           description: 'Load Balancer + $0.008 per LCU-hour (LCU depends on amount of traffic)'
         },
-        'Public IPs': { cost: 3.5, description: 'Public IPs of load balancer' },
+        'Public IPs': { cost: 7, description: 'Public IPs of load balancer' },
         'Service fee': { cost: 49, description: 'Starter plan' }
       }
     },
@@ -1061,7 +1061,7 @@ export const providerPrices: {
           cost: 34,
           description: '2 x Load Balancer + $0.008 per LCU-hour (LCU depends on amount of traffic)'
         },
-        'Public IPs': { cost: 7, description: '2 x Public IPs of load balancers' },
+        'Public IPs': { cost: 14, description: '4 x Public IPs of load balancers' },
         'Service fee': { cost: 49, description: 'Starter plan' }
       }
     },
@@ -1149,7 +1149,7 @@ export const providerPrices: {
           cost: 68,
           description: '4 x Load Balancer (4 x web service) + $0.008 per LCU-hour (LCU depends on amount of traffic)'
         },
-        'Public IPs': { cost: 14, description: '4 x Public IPs of load balancers' },
+        'Public IPs': { cost: 28, description: '8 x Public IPs of load balancers' },
         'Service fee': { cost: 49, description: 'Starter plan' }
       }
     },
