@@ -460,7 +460,7 @@ const otherSupportedResourcesFeatures: ComparedFeature[] = [
     ],
     columns: {
       Coherence: 'y',
-      Flightcontrol: 'n',
+      Flightcontrol: 'y',
       Fly: 'n',
       Heroku: 'n',
       Railway: 'n',
@@ -988,13 +988,12 @@ export const providerPrices: {
     },
     Flightcontrol: {
       items: {
-        Compute: { cost: 55, description: 'c6a.large instance (2 vCpu, 4 GB)' },
-        NAT: { cost: 32, description: 'NAT address translator' },
+        Compute: { cost: 71, description: '2 vCpu, 4 GB Fargate' },
         'Load balancing': {
           cost: 17,
           description: 'Load Balancer + $0.008 per LCU-hour (LCU depends on amount of traffic)'
         },
-        'Public IPs': { cost: 7, description: 'Public IPs of load balancer' },
+        'Public IPs': { cost: 3.5, description: 'Public IPs of load balancer' },
         'Service fee': { cost: 49, description: 'Starter plan' }
       }
     },
@@ -1047,7 +1046,7 @@ export const providerPrices: {
   },
   Medium: {
     Railway: {
-      items: {
+      items: {f
         Compute: { cost: 160, description: '2 x (2 vCpu, 4 GB)' },
         Postgres: { cost: 120, description: 'Postgres 2 vCpu, 8 GB' },
         'Service fee': { cost: 60, description: 'Pro plan with 3 seats' }
@@ -1062,7 +1061,7 @@ export const providerPrices: {
           cost: 34,
           description: '2 x Load Balancer + $0.008 per LCU-hour (LCU depends on amount of traffic)'
         },
-        'Public IPs': { cost: 14, description: '4 x Public IPs of load balancers' },
+        'Public IPs': { cost: 7, description: '2 x Public IPs of load balancers' },
         'Service fee': { cost: 49, description: 'Starter plan' }
       }
     },
@@ -1150,8 +1149,8 @@ export const providerPrices: {
           cost: 68,
           description: '4 x Load Balancer (4 x web service) + $0.008 per LCU-hour (LCU depends on amount of traffic)'
         },
-        'Public IPs': { cost: 28, description: '8 x Public IPs of load balancers' },
-        'Service fee': { cost: 249, description: 'Business plan' }
+        'Public IPs': { cost: 14, description: '4 x Public IPs of load balancers' },
+        'Service fee': { cost: 49, description: 'Starter plan' }
       }
     },
     Porter: {
@@ -1287,7 +1286,7 @@ export const providers: { [provider in ComparableProvider]: { icon: string; link
   Vercel: { icon: VercelIcon, link: 'vercel.com' },
   Fly: { icon: FlyIoIcon, link: 'fly.io' },
   Railway: { icon: RailwayIcon, link: 'railway.app' },
-  Flightcontrol: { icon: FlightcontrolIcon, link: 'flightcontrol.dev' },
+  Flightcontrol: { icon: FlightcontrolIcon, link: 'flightcontrol.dev?ref=paascout' },
   Porter: { icon: PorterIcon, link: 'porter.run' },
   Coherence: { icon: CoherenceIcon, link: 'withcoherence.com' }
 };
